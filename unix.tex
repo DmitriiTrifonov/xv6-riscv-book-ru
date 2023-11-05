@@ -1,4 +1,4 @@
-\chapter{Operating system interfaces}
+\chapter{Интерфейсы операционной системы}
 \label{CH:UNIX}
 
 Основной работой операционной системы является распределение ресурсов 
@@ -12,16 +12,9 @@
 И наконец, операционные системы предоставляют контроллируемые пути для взаимодействия 
 программ друг с другом так, чтобы они могли делиться данными или работать вместе.
 
-An operating system provides services to user programs through an interface.
+Операционная система предоставляет сервисы для пользовательских программ через интерфейс.
 \index{interface design}
-Designing a good interface turns out to be
-difficult.  On the one hand, we would like the interface to be
-simple and narrow because that makes it easier to get the
-implementation right.  On the other hand,
-we may be tempted to offer many sophisticated features to applications.
-The trick in
-resolving this tension is to design interfaces that rely on a few
-mechanisms that can be combined to provide much generality.
+Проектирование хорошего интерфейса иногда представляется трудной задачей. С одной стороны, мы хотим чтобы интерфейс был простой небольшой потому что это позволяет реализовать его с меньшим количеством проблем. С другой стороны, у нас может возникнуть соблазн предложить приложениям множество сложных функций. Хитрость в том, чтобы суметь разрешить эти противоречия таким образом, чтобы спроектировать интерфейсы, которые основываются на небольшом количестве механизмов, но которые могут быть совмещены для обеспечения наибольшего функционала.
 
 This book uses a single operating system as a concrete example to
 illustrate operating system concepts.  That operating system,
