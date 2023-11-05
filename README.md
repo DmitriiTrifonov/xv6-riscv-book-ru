@@ -1,7 +1,10 @@
-This edition of the book has been converted to LaTeX.
-In order to build it, ensure you have a TeX distribution that contains
-the `pdflatex` command. With that, you should be able to build the book
-by running `make`, which will clone the OS itself and build the book
-to `book.pdf` in the main directory.
+Перевод книги `xv6-riscv-book` на русский язык
 
-Figures are drawn using `inkscape`.
+Это издание книги было переконвертировано в формат LaTeX.
+В случае, если хотите собрать книгу, удостоверьтесь, что у вас установлен
+дистрибутив TeX который содержит в себе комманду `pdflatex`. 
+При таких вводных, вы сможете собрать книгу с помощью команды `make`, которая 
+склонирует исходники операционной системы и соберет книгу в файл `book.pdf` в
+главной директории книги.
+
+Рисунки были сделаны с помощью программы `inkscape`.
